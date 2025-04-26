@@ -1,0 +1,15 @@
+* {
+  /* すべての要素に対して、ボックスモデルを border-box に変更する */
+  box-sizing: border-box; 
+  /* 要素にデフォルトのマージンやパディングが設定されているのでリセットする */
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+app-root {
+  /* SPAの画面が画面全体に広がるように設定 */
+  width: 100dvw;
+  height: 100dvh;
+}
