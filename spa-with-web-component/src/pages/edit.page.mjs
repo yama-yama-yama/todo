@@ -33,6 +33,7 @@ export class EditPage extends HTMLElement {
     header button {
       width: 32px;
       height: 32px;
+      padding:0px;
       border: none;
       background-color: transparent;
       font-size: 32px;
